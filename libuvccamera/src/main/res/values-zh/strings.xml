@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select">选择USB摄像头</string>
+    <string name="camera">摄像头</string>
+    <string name="refresh">刷新</string>
+    <string name="no_device">未找到USB摄像头</string>
+</resources>
