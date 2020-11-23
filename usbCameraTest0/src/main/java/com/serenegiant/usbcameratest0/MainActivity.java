@@ -164,6 +164,7 @@ public class MainActivity extends BaseActivity implements CameraDialog.CameraDia
 							isActive = true;
 							camera.setPreviewDisplay(mPreviewSurface);
 							camera.startPreview();
+							camera.updateCameraParams();
 							isPreview = true;
 						}
 						synchronized (mSync) {
